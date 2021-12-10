@@ -19,7 +19,7 @@ vpc_single_nat_gateway = true
 
 # AWS EC2 Instance Variables
 bastion_instance_type = "t2.micro"
-private_instance_type = "t2.micro"
+private_instance_type = "t3.micro"
 instance_keypair = "terraform-key"
 
 # AWS ACM Variables
